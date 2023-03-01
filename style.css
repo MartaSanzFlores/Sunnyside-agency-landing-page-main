@@ -36,20 +36,30 @@ main {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows:repeat(6, 1fr);
+    grid-template-rows:repeat(5, 1fr);
+}
+
+header{
+    background-image: url("images/desktop/image-header.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
 }
 
 .heading {
-    background-color: var(--blue-back);
     color: var(--white);
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-
+    font-family: 'Barlow', sans-serif;
 }
+
 .tittle-heading {
     padding-left: 2%;
+    font-size: 2em;
+    font-weight: 700;
 }
+
 .list-nav {
     list-style: none;
     display: flex;
@@ -60,7 +70,6 @@ main {
 .nav-bar {
     padding-right: 5%;
     font-size: 1em;
-    
 }
 
 .contact{
@@ -74,4 +83,18 @@ main {
 
 .nav{
     margin: auto;
+}
+
+.principal-box {
+    text-align: center;
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    font-size: 1.5em;
+    letter-spacing: 0.4em;
+    margin-top: 5%;
+}
+
+.arrow {
+    margin-top: 5%;
 }
