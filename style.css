@@ -19,9 +19,17 @@
 
 body {
     font-size: 18px;
-    margin: 0px;
+    margin: auto 0;
     padding: 0px;
     box-sizing: border-box;
+}
+
+/* Hide scrollbar */
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 main {
@@ -39,17 +47,31 @@ main {
     justify-content: space-between;
 
 }
-
 .tittle-heading {
     padding-left: 2%;
 }
-
 .list-nav {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 40px;
+    margin: 7% 0;
 }
 
 .nav-bar {
     padding-right: 5%;
+    font-size: 1em;
+    
+}
+
+.contact{
+    border-radius: 30px;
+    text-transform: uppercase;
+    border-color: transparent;
+    background-color: var(--white);
+    font-family: 'Fraunces', serif;
+    padding: 22% 30%;
+}
+
+.nav{
+    margin: auto;
 }
