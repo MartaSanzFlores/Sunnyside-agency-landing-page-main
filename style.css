@@ -36,7 +36,7 @@ main {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows:1.3fr repeat(6, 1fr);
+    grid-template-rows:1.3fr repeat(5, 0.85fr);
 }
 
 .header{
@@ -107,15 +107,31 @@ main {
 
 .img-egg { 
     background-image: url("images/desktop/image-transform.jpg");
-    background-size: 100%;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-.tittle-box,.text-box {
-    margin: 12% 15%;
+.tittle-box {
+    font-family: 'Fraunces', serif;
+    font-size: 2.5em;
+    font-weight: 900;
+    margin: 20% 20% 0 20%;
 }
 
-.tittle-box {
-    font-size: 2em;
-    font-weight: 900;
+.text-box {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    margin: 5% 10% 0 20%;
+    line-height: 1.5em;
+}
+
+.more {
+    margin: 5% 10% 14% 21%;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+    text-decoration-thickness: 0.4em;
 }
