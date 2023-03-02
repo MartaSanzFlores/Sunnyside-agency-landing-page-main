@@ -36,14 +36,14 @@ main {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows:repeat(5, 1fr);
+    grid-template-rows:1.3fr repeat(6, 1fr);
 }
 
-header{
+.header{
     background-image: url("images/desktop/image-header.jpg");
-    background-size: 100%;
     background-repeat: no-repeat;
-    height: 800px;
+    background-position: center;
+    background-size: cover;
 }
 
 .heading {
@@ -97,4 +97,25 @@ header{
 
 .arrow {
     margin-top: 5%;
+}
+
+.first-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr;
+}
+
+.img-egg { 
+    background-image: url("images/desktop/image-transform.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.tittle-box,.text-box {
+    margin: 12% 15%;
+}
+
+.tittle-box {
+    font-size: 2em;
+    font-weight: 900;
 }
