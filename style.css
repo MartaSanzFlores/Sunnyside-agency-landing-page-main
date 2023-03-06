@@ -96,7 +96,7 @@ main {
 }
 
 .arrow {
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .first-box {
@@ -134,4 +134,50 @@ main {
     text-decoration: underline;
     text-decoration-color: var(--yellow);
     text-decoration-thickness: 0.4em;
+}
+
+
+.img-pink {
+    background-image: url("images/desktop/image-stand-out.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-graphic {
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-photo {
+    background-image: url("images/desktop/image-photography.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tittle-img-box {
+    font-family: 'Fraunces', serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 55% auto 0 auto;
+}
+
+.text-img-txt-box {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    margin: 5% 25% 10% 25%;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.cb { 
+    color: var(--dark-desaturated-cyan);
+}
+
+.pb {
+    color: var(--dark-blue);
 }
