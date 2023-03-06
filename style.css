@@ -181,3 +181,41 @@ main {
 .pb {
     color: var(--dark-blue);
 }
+
+.photos-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr;
+}
+
+.bottles {
+    background-image: url("images/desktop/image-gallery-milkbottles.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.plate {
+    background-image: url("images/desktop/image-gallery-orange.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.cone {
+    background-image: url("images/desktop/image-gallery-cone.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.sugar {
+    background-image: url("images/desktop/image-gallery-sugarcubes.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+
+
+
