@@ -36,7 +36,7 @@ main {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows:1.3fr repeat(5, 0.85fr);
+    grid-template-rows:1.3fr repeat(4, 0.85fr) 0.6fr;
 }
 
 .header{
