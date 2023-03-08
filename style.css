@@ -182,6 +182,67 @@ main {
     color: var(--dark-blue);
 }
 
+.client-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1fr;
+}
+
+.tittle-client-box {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    margin: auto;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.3em;
+    color: var(--grayis-blue);
+    margin-top: 12%;
+}
+
+.client {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin: 15% 0 0 0;
+
+}
+
+.ph {
+    text-align: center;
+}
+
+.ph-client {
+    width: 15%;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.text-client {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.4em;
+    margin: 10% 10% 15% 10%;
+}
+
+.name-client {
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+}
+
+.proffesion-client {
+    text-align: center;
+    font-size: 0.9em;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    color: var(--grayis-blue);
+    margin: 2% 0 35% 0;
+}
+
 .photos-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
