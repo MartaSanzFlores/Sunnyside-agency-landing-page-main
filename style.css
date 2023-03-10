@@ -81,6 +81,10 @@ main {
     padding: 22% 30%;
 }
 
+.contact:hover {
+    cursor: pointer;
+}
+
 .nav{
     margin: auto;
 }
@@ -134,6 +138,10 @@ main {
     text-decoration: underline;
     text-decoration-color: var(--yellow);
     text-decoration-thickness: 0.4em;
+}
+
+.more:hover {
+    cursor: pointer;
 }
 
 
@@ -296,6 +304,7 @@ main {
     gap: 50px;
     justify-content: center;
     margin: 0 0 5% 0;
+    color: var(--dark-desaturated-cyan);
 }
 
 .navf {
@@ -303,8 +312,19 @@ main {
     font-family: 'Barlow', sans-serif;
 }
 
+.navf:hover {
+    cursor: pointer;
+    color: var(--white);
+}
+
 .if {
     margin: 0 1%;
+    color: var(--dark-desaturated-cyan);
+}
+
+.if:hover {
+    cursor: pointer;
+    fill: #fff;
 }
 
 
